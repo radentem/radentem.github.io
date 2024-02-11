@@ -1,0 +1,17 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li:before {
+    content: "-";
+    margin-right: 5px;
+}
+a {
+    padding: 0;
+    margin-left:0;
+}
