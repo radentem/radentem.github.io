@@ -10,7 +10,11 @@ header {
     background-color: #ffbf99; /* Цвет фона заголовка */
     color: #333; /* Цвет текста в заголовке */
     text-align: center;
-    padding: 1em 0;
+    padding: 0.5em 0;
+}
+
+h1 {
+    margin: 0;
 }
 
 main {
