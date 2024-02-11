@@ -1,5 +1,30 @@
+/* style.css */
+
 body {
     font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9; /* Фоновый цвет страницы */
+}
+
+header {
+    background-color: #ffbf99; /* Цвет фона заголовка */
+    color: #333; /* Цвет текста в заголовке */
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
 }
 
 ul {
@@ -7,11 +32,29 @@ ul {
     padding: 0;
 }
 
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li a {
+    margin-left: 5px;
+    color: #0077cc; /* Цвет ссылок в элементе списка */
+    text-decoration: none;
+}
+
 li:before {
     content: "-";
     margin-right: 5px;
+    color: #0077cc; /* Цвет тире в элементе списка */
 }
+
 a {
-    padding: 0;
-    margin-left:0;
+    color: #ffbf99; /* Цвет обычных ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
